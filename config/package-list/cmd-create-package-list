@@ -1,2 +1,0 @@
-echo "packages:" > package_list.yml && pacman -Qqe | awk '{print "  - " $0}' >> package_list.yml
-

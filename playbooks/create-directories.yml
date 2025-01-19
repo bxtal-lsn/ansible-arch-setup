@@ -5,7 +5,7 @@
   tasks:
     - name: Load directory list
       include_vars:
-        file: "../config/directories/directories.yml"
+        file: "../config/directories.yml"
 
     - name: Ensure directories exist
       file:
