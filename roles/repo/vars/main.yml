@@ -1,0 +1,3 @@
+repos:
+  - url: https://github.com/bxtal-lsn/nvim-config.git
+    dest: ~/repos/nvim

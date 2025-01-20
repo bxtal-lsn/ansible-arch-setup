@@ -1,17 +1,12 @@
 # This file defines the directories to be created by Ansible.
 # Each entry should include the path, owner, group, and permissions (mode).
-# Example:
-#
-# directories:
-#   - path: /var/log/myapp
-#     owner: root
-#     group: root
-#     mode: '0755'
-#
-#   - path: /opt/myapp/data
-#     owner: myuser
-#     group: mygroup
-#     mode: '0775'
+directories:
+  - path: ~/repos
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"    
+    mode: '0755'
 
-directories: []
-
+  - path: ~/ansible-test
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"    
+    mode: '0755'

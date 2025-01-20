@@ -10,3 +10,4 @@ start-ssh-agent() {
 }
 
 VAGRANT_DEFAULT_PROVIDER=virtualbox
+export XDG_CONFIG_HOME="$HOME/repos"
