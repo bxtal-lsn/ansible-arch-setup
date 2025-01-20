@@ -8,6 +8,7 @@ packages:
   - docker
   - epiphany
   - evince
+  - falkon
   - fd
   - firefox
   - fzf
@@ -69,21 +70,45 @@ packages:
   - linux-firmware
   - loupe
   - lua-language-server
+  - lximage-qt
+  - lxqt-about
+  - lxqt-admin
+  - lxqt-archiver
+  - lxqt-config
+  - lxqt-globalkeys
+  - lxqt-notificationd
+  - lxqt-openssh-askpass
+  - lxqt-panel
+  - lxqt-policykit
+  - lxqt-powermanagement
+  - lxqt-qtplugin
+  - lxqt-runner
+  - lxqt-session
+  - lxqt-sudo
+  - lxqt-themes
   - malcontent
   - nautilus
   - neovim
   - networkmanager
   - nomad
   - npm
+  - obconf-qt
+  - openbox
   - orca
+  - pavucontrol-qt
+  - pcmanfm-qt
   - pipewire
   - pipewire-alsa
   - pipewire-jack
   - pipewire-pulse
   - postgresql
   - pyright
+  - qps
+  - qterminal
   - ripgrep
   - rygel
+  - screengrab
+  - sddm
   - simple-scan
   - snapshot
   - stylua
@@ -94,13 +119,15 @@ packages:
   - vagrant
   - vim
   - virtualbox
+  - vivaldi
   - wget
   - wireplumber
   - xclip
   - xdg-desktop-portal-gnome
+  - xdg-desktop-portal-lxqt
   - xdg-user-dirs-gtk
-  - yay
-  - yay-debug
+  - xorg-server
+  - xorg-xinit
   - yelp
   - zellij
   - zig
