@@ -16,3 +16,10 @@ files:
     owner: "{{ ansible_env.USER }}"
     group: "{{ ansible_env.USER }}"
     mode: '0644'
+
+
+  - src: files/tmux-config.conf
+    dest: "{{ ansible_env.HOME }}/.tmux.conf"
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"
+    mode: '0644'
