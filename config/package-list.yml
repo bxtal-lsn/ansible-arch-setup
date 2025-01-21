@@ -1,17 +1,22 @@
 packages:
   - ansible
+  - arch-install-scripts
   - baobab
   - base
   - base-devel
   - bash-completion
   - bat
+  - bc
+  - chafa
   - docker
   - epiphany
   - evince
-  - falkon
+  - exo
+  - fakeroot-tcp
   - fd
   - firefox
   - fzf
+  - garcon
   - gdm
   - ghostty
   - git
@@ -70,64 +75,97 @@ packages:
   - linux-firmware
   - loupe
   - lua-language-server
-  - lximage-qt
-  - lxqt-about
-  - lxqt-admin
-  - lxqt-archiver
-  - lxqt-config
-  - lxqt-globalkeys
-  - lxqt-notificationd
-  - lxqt-openssh-askpass
-  - lxqt-panel
-  - lxqt-policykit
-  - lxqt-powermanagement
-  - lxqt-qtplugin
-  - lxqt-runner
-  - lxqt-session
-  - lxqt-sudo
-  - lxqt-themes
   - malcontent
+  - nano
   - nautilus
   - neovim
   - networkmanager
   - nomad
   - npm
-  - obconf-qt
-  - openbox
+  - openssh
   - orca
-  - pavucontrol-qt
-  - pcmanfm-qt
   - pipewire
   - pipewire-alsa
   - pipewire-jack
   - pipewire-pulse
+  - playerctl
   - postgresql
   - pyright
-  - qps
-  - qterminal
   - ripgrep
   - rygel
-  - screengrab
-  - sddm
   - simple-scan
   - snapshot
   - stylua
+  - sudo
   - sushi
+  - sway
   - tecla
+  - thunar
+  - thunar-volman
   - tmux
   - totem
+  - tumbler
   - vagrant
   - vim
   - virtualbox
-  - vivaldi
+  - weston
   - wget
   - wireplumber
+  - wlroots
   - xclip
   - xdg-desktop-portal-gnome
-  - xdg-desktop-portal-lxqt
   - xdg-user-dirs-gtk
+  - xf86-video-vesa
+  - xfce4-appfinder
+  - xfce4-panel
+  - xfce4-power-manager
+  - xfce4-session
+  - xfce4-settings
+  - xfce4-terminal
+  - xfconf
+  - xfdesktop
+  - xfwm4
+  - xfwm4-themes
+  - xorg-bdftopcf
+  - xorg-docs
+  - xorg-font-util
+  - xorg-fonts-100dpi
+  - xorg-fonts-75dpi
+  - xorg-iceauth
+  - xorg-mkfontscale
   - xorg-server
-  - xorg-xinit
+  - xorg-server-devel
+  - xorg-server-xephyr
+  - xorg-server-xnest
+  - xorg-server-xvfb
+  - xorg-sessreg
+  - xorg-smproxy
+  - xorg-x11perf
+  - xorg-xauth
+  - xorg-xbacklight
+  - xorg-xclock
+  - xorg-xcmsdb
+  - xorg-xcursorgen
+  - xorg-xdpyinfo
+  - xorg-xdriinfo
+  - xorg-xev
+  - xorg-xgamma
+  - xorg-xhost
+  - xorg-xinput
+  - xorg-xkbevd
+  - xorg-xkbprint
+  - xorg-xkbutils
+  - xorg-xkill
+  - xorg-xlsatoms
+  - xorg-xlsclients
+  - xorg-xpr
+  - xorg-xrandr
+  - xorg-xrefresh
+  - xorg-xsetroot
+  - xorg-xvinfo
+  - xorg-xwd
+  - xorg-xwininfo
+  - xorg-xwud
   - yelp
   - zellij
   - zig

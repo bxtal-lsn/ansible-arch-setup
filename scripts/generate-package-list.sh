@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Generate a package_list.yml file with installed packages
-output_file="../config/package_list.yml"
+output_file="../config/package-list.yml"
 
 # Write the header to the file
 echo "packages:" > "$output_file"
